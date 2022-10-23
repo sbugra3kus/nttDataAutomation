@@ -1,0 +1,72 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 3689milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 3689"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52168"}
+{"logLevel":"info","message":"Listening on port:52168"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.assertMainpage' and 'Test.StepImplementation.assertMainpage'"}
+{"logLevel":"debug","message":"Found Anasayfanın Açıldığı Kontrol Edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormaddress' and 'Test.StepImplementation.PratikFormaddress'"}
+{"logLevel":"debug","message":"Found Pratik Form adres doldurma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormgender' and 'Test.StepImplementation.PratikFormgender'"}
+{"logLevel":"debug","message":"Found Pratik Form cinsiyet seçme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormSubmit' and 'Test.StepImplementation.PratikFormSubmit'"}
+{"logLevel":"debug","message":"Found Pratik Form Submit butona tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.searchButton' and 'Test.StepImplementation.searchButton'"}
+{"logLevel":"debug","message":"Found Forms Butonuna Tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.waitForSecond' and 'Test.StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormName' and 'Test.StepImplementation.PratikFormName'"}
+{"logLevel":"debug","message":"Found Pratik Form isim doldurma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormu' and 'Test.StepImplementation.PratikFormu'"}
+{"logLevel":"debug","message":"Found Pratik Form Butonuna Tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.zoomOut' and 'Test.StepImplementation.zoomOut'"}
+{"logLevel":"debug","message":"Found ZoomOut in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormEmail' and 'Test.StepImplementation.PratikFormEmail'"}
+{"logLevel":"debug","message":"Found Pratik Form Email doldurma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormNumber' and 'Test.StepImplementation.PratikFormNumber'"}
+{"logLevel":"debug","message":"Found Pratik Form numara doldurma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PratikFormLastname' and 'Test.StepImplementation.PratikFormLastname'"}
+{"logLevel":"debug","message":"Found Pratik Form soyisim doldurma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.ScreenShoot' and 'Test.StepImplementation.ScreenShoot'"}
+{"logLevel":"debug","message":"Found Ekran görüntüsü alma in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tPratik Form Submit butona tıklama : public void PratikFormSubmit() throws IOException"}
+{"logLevel":"debug","message":"\tPratik Form adres doldurma : public void PratikFormaddress() throws IOException"}
+{"logLevel":"debug","message":"\tPratik Form Email doldurma : public void PratikFormEmail() throws IOException"}
+{"logLevel":"debug","message":"\tPratik Form Butonuna Tıklama : public void PratikFormu()"}
+{"logLevel":"debug","message":"\tPratik Form isim doldurma : public void PratikFormName() throws IOException"}
+{"logLevel":"debug","message":"\tPratik Form cinsiyet seçme : public void PratikFormgender() throws IOException"}
+{"logLevel":"debug","message":"\tZoomOut : public void zoomOut()"}
+{"logLevel":"debug","message":"\tPratik Form numara doldurma : public void PratikFormNumber() throws IOException"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSecond(Integer x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tPratik Form soyisim doldurma : public void PratikFormLastname() throws IOException"}
+{"logLevel":"debug","message":"\tAnasayfanın Açıldığı Kontrol Edilir : public void assertMainpage()"}
+{"logLevel":"debug","message":"\tForms Butonuna Tıklama : public void searchButton()"}
+{"logLevel":"debug","message":"\tEkran görüntüsü alma : public void ScreenShoot() throws IOException"}
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 20627
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eki 23, 2022 3:10:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Anasayfanın Açıldığı Kontrol Edilir' using 'class Test.StepImplementation.assertMainpage"}
+{"logLevel":"debug","message":"Executing 'ZoomOut' using 'class Test.StepImplementation.zoomOut"}
+{"logLevel":"debug","message":"Executing 'Forms Butonuna Tıklama' using 'class Test.StepImplementation.searchButton"}
+{"logLevel":"debug","message":"Executing 'Pratik Form Butonuna Tıklama' using 'class Test.StepImplementation.PratikFormu"}
+{"logLevel":"debug","message":"Executing 'Pratik Form isim doldurma' using 'class Test.StepImplementation.PratikFormName"}
+{"logLevel":"debug","message":"Executing 'Pratik Form soyisim doldurma' using 'class Test.StepImplementation.PratikFormLastname"}
+{"logLevel":"debug","message":"Executing 'Pratik Form Email doldurma' using 'class Test.StepImplementation.PratikFormEmail"}
+{"logLevel":"debug","message":"Executing 'Pratik Form numara doldurma' using 'class Test.StepImplementation.PratikFormNumber"}
+{"logLevel":"debug","message":"Executing 'Pratik Form adres doldurma' using 'class Test.StepImplementation.PratikFormaddress"}
+{"logLevel":"debug","message":"Executing 'Pratik Form cinsiyet seçme' using 'class Test.StepImplementation.PratikFormgender"}
+{"logLevel":"debug","message":"Executing 'Pratik Form Submit butona tıklama' using 'class Test.StepImplementation.PratikFormSubmit"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class Test.StepImplementation.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Ekran görüntüsü alma' using 'class Test.StepImplementation.ScreenShoot"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
